@@ -1,12 +1,10 @@
-# hastscript
+# hastscript-ns
+A fork of the original hastscript npm package. This one does not lowercase html tagNames. SVG tagnames are still lowercased (or normalized).
 
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
+
 
 [**hast**][hast] utility to create [*trees*][tree] in HTML or SVG.
 
@@ -24,7 +22,7 @@ Node 12+ is needed to use it and it must be `import`ed instead of `require`d.
 [npm][]:
 
 ```sh
-npm install hastscript
+npm install hastscript-ns
 ```
 
 ## Use

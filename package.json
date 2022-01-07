@@ -1,6 +1,6 @@
 {
-  "name": "hastscript",
-  "version": "7.0.2",
+  "name": "hastscript-ns",
+  "version": "7.0.3",
   "description": "hast utility to create trees",
   "license": "MIT",
   "keywords": [
@@ -17,13 +17,8 @@
     "hyperscript",
     "dsl"
   ],
-  "repository": "syntax-tree/hastscript",
-  "bugs": "https://github.com/syntax-tree/hastscript/issues",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/unified"
-  },
-  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "repository": "AshtarCodes/hastscript",
+  "author": "Ashtar Paniagua <ashtarcodes@gmail.com>",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
