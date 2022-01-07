@@ -79,7 +79,7 @@
     "xo": "^0.42.0"
   },
   "scripts": {
-    "prepack": "npm run build && npm run format",
+    "prepack": "npm run build",
     "build": "rimraf \"{script/**,test/**,}*.d.ts\" \"lib/{core,html,index,runtime-html,runtime-svg,runtime,svg-case-sensitive-tag-names,svg}.d.ts\" && tsc && tsd && type-coverage",
     "generate": "node script/generate-jsx && node script/build",
     "format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
